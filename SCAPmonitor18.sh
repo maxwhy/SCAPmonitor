@@ -116,7 +116,7 @@ do
   fi
 
   # Rule: Enable systemd_timesyncd Service
-  ps -e | grep -w systemd-timesyn >/dev/null
+  timedatectl | grep 'systemd-timesyncd.service active : yes' >/dev/null
   if [ $? != 0 ];
   then
     FLAG=1
