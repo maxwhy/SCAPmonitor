@@ -138,7 +138,7 @@ do
     echo "Remediation completed"
     echo "Copying report to git repository..."
     cp $REPORTNAME $REPOPATH
-    (cd $REPOPATH ; git add . )
+    (cd $REPOPATH ; git add $REPORTNAME )
     (cd $REPOPATH ; git commit -m "message" )
     (cd $REPOPATH ; git push -u origin $NODEBRANCH )
     echo "$REPORTNAME pushed to $REPOPATH repository on branch $NODEBRANCH"
@@ -164,7 +164,7 @@ do
     echo "Remediation completed"
     echo "Copying report to git repository..."
     cp $REPORTNAME $REPOPATH
-    (cd $REPOPATH ; git add . )
+    (cd $REPOPATH ; git add $REPORTNAME )
     (cd $REPOPATH ; git commit -m "message" )
     (cd $REPOPATH ; git push -u origin $NODEBRANCH )
     echo "$REPORTNAME pushed to $REPOPATH repository on branch $NODEBRANCH"
@@ -198,7 +198,7 @@ do
     echo "Remediation completed"
     echo "Copying report to git repository..."
     cp $REPORTNAME $REPOPATH
-    (cd $REPOPATH ; git add . )
+    (cd $REPOPATH ; git add $REPORTNAME )
     (cd $REPOPATH ; git commit -m "message" )
     (cd $REPOPATH ; git push -u origin $NODEBRANCH )
     echo "$REPORTNAME pushed to $REPOPATH repository on branch $NODEBRANCH"
@@ -220,7 +220,7 @@ do
     echo "Remediation completed"
     echo "Copying report to git repository..."
     cp $REPORTNAME $REPOPATH
-    (cd $REPOPATH ; git add . )
+    (cd $REPOPATH ; git add $REPORTNAME )
     (cd $REPOPATH ; git commit -m "message" )
     (cd $REPOPATH ; git push -u origin $NODEBRANCH )
     echo "$REPORTNAME pushed to $REPOPATH repository on branch $NODEBRANCH"
@@ -245,7 +245,7 @@ do
     echo "Remediation completed"
     echo "Copying report to git repository..."
     cp $REPORTNAME $REPOPATH
-    (cd $REPOPATH ; git add . )
+    (cd $REPOPATH ; git add $REPORTNAME )
     (cd $REPOPATH ; git commit -m "message" )
     (cd $REPOPATH ; git push -u origin $NODEBRANCH )
     echo "$REPORTNAME pushed to $REPOPATH repository on branch $NODEBRANCH"
@@ -271,7 +271,7 @@ do
     echo "Remediation completed"
     echo "Copying report to git repository..."
     cp $REPORTNAME $REPOPATH
-    (cd $REPOPATH ; git add . )
+    (cd $REPOPATH ; git add $REPORTNAME )
     (cd $REPOPATH ; git commit -m "message" )
     (cd $REPOPATH ; git push -u origin $NODEBRANCH )
     echo "$REPORTNAME pushed to $REPOPATH repository on branch $NODEBRANCH"
